@@ -8,13 +8,13 @@ int main() {
   Road road(150);
 
   // First student must give a name to bike
-  Bike bike("");
+  Bike bike("leo");
 
   // Second student must give a name to bike2
-  Bike bike2("");
+  Bike bike2("tom");
 
   // Third student (if any) must give a name to bike3
-  Bike bike3("");
+  Bike bike3("pi");
 
   Race race(road, std::vector<Bike>{bike, bike2, bike3});
   return 0;
